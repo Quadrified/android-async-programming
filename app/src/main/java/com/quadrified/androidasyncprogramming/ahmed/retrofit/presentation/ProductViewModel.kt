@@ -1,10 +1,10 @@
-package com.quadrified.androidasyncprogramming.ahmedretrofit.presentation
+package com.quadrified.androidasyncprogramming.ahmed.retrofit.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.quadrified.androidasyncprogramming.ahmedretrofit.data.ApiResult
-import com.quadrified.androidasyncprogramming.ahmedretrofit.data.ProductsRepository
-import com.quadrified.androidasyncprogramming.ahmedretrofit.data.model.Products
+import com.quadrified.androidasyncprogramming.ahmed.retrofit.data.ApiResult
+import com.quadrified.androidasyncprogramming.ahmed.retrofit.data.ProductsRepository
+import com.quadrified.androidasyncprogramming.ahmed.retrofit.data.model.Products
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

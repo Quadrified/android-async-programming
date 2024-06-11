@@ -1,4 +1,4 @@
-package com.quadrified.androidasyncprogramming.ahmedretrofit.data
+package com.quadrified.androidasyncprogramming.ahmed.retrofit.data
 
 // sealed class -> class that can only be inherited from within the same file where it is declared
 // restricted inheritance

@@ -1,4 +1,4 @@
-package com.quadrified.androidasyncprogramming.ahmedretrofit.data.model
+package com.quadrified.androidasyncprogramming.ahmed.retrofit.data.model
 
 data class Dimensions(
     val depth: Double,

@@ -1,6 +1,6 @@
-package com.quadrified.androidasyncprogramming.ahmedretrofit.data
+package com.quadrified.androidasyncprogramming.ahmed.retrofit.data
 
-import com.quadrified.androidasyncprogramming.ahmedretrofit.data.model.Products
+import com.quadrified.androidasyncprogramming.ahmed.retrofit.data.model.Products
 import retrofit2.http.GET
 
 interface Api {

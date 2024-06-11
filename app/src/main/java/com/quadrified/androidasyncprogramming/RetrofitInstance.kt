@@ -1,6 +1,6 @@
 package com.quadrified.androidasyncprogramming
 
-import com.quadrified.androidasyncprogramming.ahmedretrofit.data.Api
+import com.quadrified.androidasyncprogramming.ahmed.retrofit.data.Api
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit

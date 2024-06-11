@@ -1,6 +1,6 @@
-package com.quadrified.androidasyncprogramming.ahmedretrofit.data
+package com.quadrified.androidasyncprogramming.ahmed.retrofit.data
 
-import com.quadrified.androidasyncprogramming.ahmedretrofit.data.model.Product
+import com.quadrified.androidasyncprogramming.ahmed.retrofit.data.model.Product
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import okio.IOException

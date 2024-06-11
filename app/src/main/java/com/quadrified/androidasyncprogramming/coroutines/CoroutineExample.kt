@@ -121,17 +121,13 @@ fun CoroutineExamplePreview() {
 //            Log.d(TAG, "Main Thread Continuing")
 //        }
 
-//        runBlocking {
-//            delay(2000L)
-//            job.cancel()
-//            Log.d(TAG, "Main Thread Continuing")
-//        }
-
 //        val job = GlobalScope.launch(Dispatchers.Default) {
 //            Log.d(TAG, "Starting long running calculation")
 //            withTimeout(3000L) {
+//                withTimeout => cancels coroutine automatically after timeout
 //                for (i in 30..40) {
 //                    if (isActive) {
+//                        isActive => checks if coroutine is active during heavy tasks in Main thread
 //                        Log.d(TAG, "Result for i = $i is ${fibonnacci(i)}")
 //                    }
 //                }
