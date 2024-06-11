@@ -74,6 +74,7 @@ dependencies {
     // ViewModel Dependencies
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx.v262)
+    implementation(libs.androidx.lifecycle.viewmodel.compose.android)
 
     // Retrofit Dependencies
     implementation(libs.retrofit)
